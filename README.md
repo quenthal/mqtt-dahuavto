@@ -12,7 +12,7 @@ Configure based on your solution the following settings:
 - SPEECH_LANGUAGE = "fi"
 
 Whenever you do MQTT Publish with configured topic (default: DahuaVTO/ring) this script reacts to it. 
-- If the payload is "ring", generic doorbell sound is played back on Dahua VTO (dootbell_vto.wav).
+- If the payload is "ring", generic doorbell sound is played back on Dahua VTO (doorbell_vto.wav).
 - If the payload is something else, Google's Text To Speech is called and audio is generated based on the payload in chosen language (default: fi).
 
   
